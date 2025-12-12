@@ -1,0 +1,152 @@
+body {
+    font-family: 'Poppins';
+    background: linear-gradient(180deg, #184E77 0%, #1E6091 52.4%, #168AAD 100%);
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 1401px;
+    height: 227px;
+}
+
+.boxes {
+    margin-top: 500px;
+    display: flex;
+    flex-direction: column;
+    width: 1160px;
+    height: 1938.109px;
+    margin-left: 1300px;
+}
+.box { 
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.people {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 408px;
+}
+
+.foto {
+    width: 249.194px;
+    height: 219.949px;  
+    border-radius: 25px 25px 0 0;
+    background: var(--oohhohooh, linear-gradient(90deg, #10C58B 0%, #00CFF9 66.35%));
+}
+
+.tulisan {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 156px;
+    background-color: var(--Linear, radial-gradient(50% 50% at 50% 50%, #184E77 0%, #1E6091 52.4%, #168AAD 100%));
+}
+
+.t1 {
+    font-size: 90px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #76C893 8.65%, #B5E48C 52.88%, #D9ED92 96.15%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.t2 {
+    font-size: 36px;
+    font-weight: 700;
+    
+    background: linear-gradient(90deg, #76C893 8.65%, #B5E48C 52.88%, #D9ED92 96.15%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.t3 {
+    background: var(--Test, linear-gradient(90deg, #76C893 8.65%, #B5E48C 52.88%, #D9ED92 96.15%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.boxes {
+    display: flex;
+}
+
+.c1, .c2, .c3, .c4 {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 1600px;
+    align-items: center;
+    margin-right: 30px;
+}
+.people {
+    width: 250px; 
+    height: 400px;
+}
+
+.tulisan {
+    font-weight: 400;
+}
+
+.nama, .fakultas {
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.nama {
+    font-weight: 700;
+    font-style: bold;
+    font-size : 30px;
+}
+
+.fakultas {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.deskripsi {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px; 
+}
+
+.icons:hover { 
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3); 
+
+}
+.information {
+    background: var(--oohhohooh, linear-gradient(90deg, #10C58B 0%, #00CFF9 66.35%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 8.745px 8.745px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    font-size: 48.1px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    float:left;
+}
